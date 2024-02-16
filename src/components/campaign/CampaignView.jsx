@@ -4,9 +4,9 @@ import { Button } from '../Button/Button';
 
 export const CampaignView = () => {
     return (
-        <div className='flex flex-col justify-center items-center bg-[#F5F5F5] pt-[90px] pb-[90px]'>
+        <div className='flex flex-col justify-center items-center bg-[#F5F5F5] p-4 pt-[45px] lg:pt-[90px] pb-[90px]'>
             <div>
-                <div className='text-[45px] leading-[45px] font-bold text-center'>
+                <div className='text-[25px] lg:text-[45px] leading-[45px] font-bold text-center'>
                     <span>All the power. Easy to use.</span>
                 </div>
                 <div className='text-[15px] text-center pt-8'>
@@ -16,7 +16,7 @@ export const CampaignView = () => {
             <div className='pt-16 max-w-[100%]'>
                 <img src={campaign} alt='campaign' />
             </div>
-            <div className='flex gap-6 pt-10'>
+            <div className='flex gap-6 pt-10 text-[10px] lg:text-[16px]'>
                 <div>
                     <Button text='See products' className='text-white rounded-3xl px-6 shadow-xl transform transition duration-300 hover:-translate-y-1' />
                 </div>

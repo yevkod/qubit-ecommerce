@@ -5,7 +5,7 @@ export const CommerceView = () => {
     return (
         <div className='pt-[90px] pb-[90px]'>
             <div className='flex flex-col items-center'>
-                <div className='text-[40px] font-bold'>
+                <div className='text-[40px] font-bold text-center lg:text-left'>
                     <span>Qubit CommerceAI.</span>
                 </div>
                 <div className='text-[18px] pt-5'>

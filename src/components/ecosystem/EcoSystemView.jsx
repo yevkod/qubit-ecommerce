@@ -4,10 +4,10 @@ import { Button } from '../Button/Button';
 
 export const EcoSystemView = () => {
     return (
-        <div className='pt-[60px] pb-[60px] bg-[#F5F5F5] p-16'>
+        <div className='pt-[35px] lg:pt-[60px] pb-[60px] bg-[#F5F5F5] p-5 lg:p-16'>
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div className='flex flex-col justify-center max-w-[610px]'>
-                    <div className='text-[40px] font-bold'>
+                    <div className='text-[25px] lg:text-[40px] font-bold'>
                         <span>A connected ecosystem.</span>
                     </div>
                     <div className='text-[13px] pt-6'>
@@ -16,7 +16,7 @@ export const EcoSystemView = () => {
                     <div className='text-[13px] pt-5'>
                         <span>Our open ecosystem approach means you can connect any data source and deliver personalization across any channel.</span>
                     </div>
-                    <div className='pt-14'>
+                    <div className='flex justify-center pt-14'>
                         <Button text='See our integrations' className='rounded-3xl px-8 text-white shadow-xl transform transition duration-300 hover:-translate-y-1' />
                     </div>
                 </div>

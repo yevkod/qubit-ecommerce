@@ -3,8 +3,8 @@ import { doArray } from './DoArray'
 
 export const DoView = () => {
     return (
-        <div className='pt-[80px] pb-[90px]'>
-            <div className='text-center text-[40px] font-bold'>
+        <div className='pt-[40px] lg:pt-[80px] p-4 pb-[90px]'>
+            <div className='text-center text-[25px] lg:text-[40px] font-bold'>
                 <span>What you can do with Qubit.</span>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 pt-16 '>

@@ -4,9 +4,9 @@ import { industryArray } from './IndustryArray';
 
 export const IndustryView = () => {
     return (
-        <div className='pt-[90px] pb-[90px]'>
+        <div className='pt-[45px] lg:pt-[90px] pb-[90px]'>
             <div className='text-center'>
-                <div className='text-[40px] font-bold'>
+                <div className='text-[25px] lg:text-[40px] font-bold'>
                     <span>We specialize in your industry.</span>
                 </div>
                 <div className='text-[18px]'>

@@ -4,8 +4,8 @@ import { companyArray, featuredArray, productsArray, resourcesArray } from './Fo
 export const FooterView = () => {
     return (
         <div className='flex flex-col bg-[#20003C] pt-[90px] pb-[60px] text-white p-7'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-32'>
-                <ul className='flex flex-col gap-3'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-10 lg:gap-32'>
+                <ul className='flex flex-col gap-3 text-center lg:text-start'>
                     <li className='text-[16px] font-bold'>Featured Capabilities</li>
                     {featuredArray.map((item) => (
                         <div key={item.id} className='gap-3'>
@@ -13,7 +13,7 @@ export const FooterView = () => {
                         </div>
                     ))}
                 </ul>
-                <ul className='flex flex-col gap-3'>
+                <ul className='flex flex-col gap-3 text-center lg:text-start'>
                     <li className='text-[16px] font-bold'>Products</li>
                     {productsArray.map((item) => (
                         <div key={item.id} className='gap-3'>
@@ -21,7 +21,7 @@ export const FooterView = () => {
                         </div>
                     ))}
                 </ul>
-                <ul className='flex flex-col gap-3'>
+                <ul className='flex flex-col gap-3 text-center lg:text-start'>
                     <li className='text-[16px] font-bold'>Resources</li>
                     {resourcesArray.map((item) => (
                         <div key={item.id} className='gap-3'>
@@ -29,7 +29,7 @@ export const FooterView = () => {
                         </div>
                     ))}
                 </ul>
-                <ul className='flex flex-col gap-3'>
+                <ul className='flex flex-col gap-3 text-center lg:text-start'>
                     <li className='text-[16px] font-bold'>Company</li>
                     {companyArray.map((item) => (
                         <div key={item.id} className='gap-3'>
