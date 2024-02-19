@@ -3,7 +3,7 @@ import { Button } from '../Button/Button';
 
 export const BookView = () => {
     return (
-        <div className='flex flex-col items-center bg-demo  max-w-[90rem] bg-center bg-no-repeat p-5 lg:p-[90px] mx-auto'>
+        <div className='flex flex-col items-center bg-demo bg-cover bg-center bg-no-repeat p-5 lg:p-[90px] mx-auto'>
             <div className='text-[25px] lg:text-[40px] font-bold text-white'>
                 <span>Book a demo today.</span>
             </div>

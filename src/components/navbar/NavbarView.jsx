@@ -9,7 +9,7 @@ export const NavbarView = ({ menu, setMenu }) => {
     }
 
     return (
-        <div className='flex h-[60px] w-full fixed rounded-b-lg p-3 z-[10000] bg-white shadow-md max-w-[90rem] justify-between items-center mx-auto'>
+        <div className='flex h-[60px] fixed rounded-b-lg p-5 z-[10000] bg-white shadow-md w-full justify-between items-center mx-auto'>
             <div className='font-sans text-3xl font-bold cursor-pointer'>Qubit.</div>
             <ul className='hidden lg:flex gap-10 font-sans'>
                 <li className='hover:underline'>Why Qubit?</li>

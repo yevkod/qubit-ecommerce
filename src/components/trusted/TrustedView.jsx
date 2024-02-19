@@ -8,7 +8,7 @@ export const TrustedView = () => {
             <div className='text-[18px] font-bold text-center'>
                 <span>Trusted by world-class brands.</span>
             </div>
-            <div className='w-full max-w-[90rem] mx-auto'>
+            <div className='w-full px-5 mx-auto'>
                 <Marquee autoFill play>
                     <div className='flex justify-center pt-8 gap-16 first:pr-10'>
                         {trustedArray.map((item) => (

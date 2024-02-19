@@ -3,7 +3,7 @@ import { commerceArray } from './CommerceArray'
 
 export const CommerceView = () => {
     return (
-        <div className='pt-[90px] pb-[90px]'>
+        <div className='pt-[90px] pb-[90px] max-w-[90rem] mx-auto'>
             <div className='flex flex-col items-center'>
                 <div className='text-[40px] font-bold text-center lg:text-left'>
                     <span>Qubit CommerceAI.</span>

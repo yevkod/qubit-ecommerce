@@ -5,7 +5,7 @@ import { Button } from '../Button/Button';
 export const EcoSystemView = () => {
     return (
         <div className='pt-[35px] lg:pt-[60px] pb-[60px] bg-[#F5F5F5] p-5 lg:p-16'>
-            <div className='grid grid-cols-1 md:grid-cols-2'>
+            <div className='grid grid-cols-1 md:grid-cols-2 max-w-[90rem] mx-auto'>
                 <div className='flex flex-col justify-center max-w-[610px]'>
                     <div className='text-[25px] lg:text-[40px] font-bold'>
                         <span>A connected ecosystem.</span>
@@ -20,7 +20,7 @@ export const EcoSystemView = () => {
                         <Button text='See our integrations' className='rounded-3xl px-8 text-white shadow-xl transform transition duration-300 hover:-translate-y-1' />
                     </div>
                 </div>
-                <div>
+                <div className='flex relative justify-center'>
                     <img src={ecosystem} alt='ecosystem' />
                 </div>
             </div>
