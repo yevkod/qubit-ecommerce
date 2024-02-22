@@ -16,11 +16,11 @@ export const EcoSystemView = () => {
                     <div className='text-[13px] pt-5'>
                         <span>Our open ecosystem approach means you can connect any data source and deliver personalization across any channel.</span>
                     </div>
-                    <div className='flex justify-center pt-14'>
+                    <div className='flex justify-center lg:justify-start pt-14'>
                         <Button text='See our integrations' className='rounded-3xl px-8 text-white shadow-xl transform transition duration-300 hover:-translate-y-1' />
                     </div>
                 </div>
-                <div className='flex relative justify-center'>
+                <div className='flex relative justify-center hover:scale-110 transition-all'>
                     <img src={ecosystem} alt='ecosystem' />
                 </div>
             </div>

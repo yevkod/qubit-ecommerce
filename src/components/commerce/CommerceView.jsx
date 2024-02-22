@@ -14,7 +14,7 @@ export const CommerceView = () => {
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
                 {commerceArray.map((item) => (
-                    <div key={item.id} className='flex flex-col mx-auto items-center pt-10 text-center max-w-[316px]'>
+                    <div key={item.id} className='flex flex-col mx-auto items-center pt-10 text-center max-w-[316px] hover:scale-110 transition-all'>
                         <div><img src={item.icon} alt={item.title} /></div>
                         <div className='text-[19px] font-bold pt-5'>{item.title}</div>
                         <div className='text-[15px] pt-5'>{item.description}</div>

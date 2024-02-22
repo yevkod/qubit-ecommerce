@@ -13,7 +13,7 @@ export const CampaignView = () => {
                     <span>By collaborating with real ecommerce teams we have built the next-gen personalization tool. No code. No clunkiness.</span>
                 </div>
             </div>
-            <div className='pt-16 max-w-[100%]'>
+            <div className='pt-16 max-w-[100%] hover:scale-110 transition-all'>
                 <img src={campaign} alt='campaign' />
             </div>
             <div className='flex gap-6 pt-10 text-[10px] lg:text-[16px]'>

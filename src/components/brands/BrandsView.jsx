@@ -73,7 +73,7 @@ export const BrandsView = () => {
                     }}
                 >
                     {brandsArray.map((item) => (
-                        <div key={item.id} className='relative rounded-xl mt-8 max-w-[320px] h-full bg-white'>
+                        <div key={item.id} className='relative rounded-xl mt-8 max-w-[320px] h-full bg-white hover:scale-110 transition-all'>
                             <div>
                                 <img className='' src={item.icon} />
                             </div>

@@ -28,7 +28,7 @@ export const GrowView = () => {
             </div>
             <div className='grid grid-cols-2 gap-x-10 pt-8 lg:pt-0 md:gap-x-36 gap-y-20'>
                 {growArray.map((item) => (
-                    <div key={item.id} className='grid grid-cols-1 '>
+                    <div key={item.id} className='grid grid-cols-1 hover:scale-110 transition-all'>
                         <div className='text-[25px] lg:text-[40px] font-bold font-sans'>{item.rate}</div>
                         <div className='lg:text-[15px]'>{item.title}</div>
                     </div>

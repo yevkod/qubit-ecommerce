@@ -15,7 +15,7 @@ export const IndustryView = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 mx-auto gap-8 max-w-[980px] pt-10'>
                 {industryArray.map((item) => (
-                    <div key={item.id} className='flex flex-col text-left bg-[#17002E] rounded-lg text-white p-5'>
+                    <div key={item.id} className='flex flex-col text-left bg-[#17002E] rounded-lg text-white p-5 hover:scale-110 transition-all'>
                         <div className='flex items-center gap-4 max-w-[400px]'>
                             <div className='flex justify-center'>
                                 <img src={item.icon} alt={item.title} />

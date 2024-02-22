@@ -9,7 +9,7 @@ export const DoView = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 pt-16 '>
                 {doArray.map((item) => (
-                    <div key={item.id} className='flex flex-col text-center max-w-[265px] mx-auto'>
+                    <div key={item.id} className='flex flex-col text-center max-w-[265px] mx-auto hover:scale-110 transition-all'>
                         <div className='flex justify-center'>
                             <img src={item.icon} />
                         </div>

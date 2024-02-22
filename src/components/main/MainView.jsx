@@ -9,7 +9,7 @@ export const MainView = () => {
                     <div className='text-[15px]'>
                         <span>Driving growth with personalization.</span>
                     </div>
-                    <div className='text-[29px] lg:text-[3.5rem] pt-5 font-bold leading-[55px]'>
+                    <div className='text-[29px] lg:text-[3.5rem] pt-5 font-bold leading-[55px] hover:scale-110 transition-all'>
                         <span>Make ecommerce<br></br><span className='text-[#6F2DFF]'>More personal.</span></span>
                     </div>
                     <div className='text-[15px] pt-4 lg:pt-8 lg:text-[18px]'>
