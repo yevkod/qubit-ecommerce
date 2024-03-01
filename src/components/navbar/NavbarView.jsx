@@ -11,7 +11,7 @@ export const NavbarView = ({ menu, setMenu }) => {
 
     return (
         <div className='flex h-[60px] fixed rounded-b-lg p-5 z-[10000] bg-white shadow-md w-full justify-between items-center mx-auto'>
-            <div className='font-sans text-3xl font-bold cursor-pointer hover:scale-110 transition-all'>Qubit.</div>
+            <div className='font-sans text-3xl font-bold cursor-pointer hover:scale-110 transition-all'> <Link to="mainView" smooth={true} duration={500}>Qubit.</Link></div>
             <ul className='hidden lg:flex gap-10 font-sans'>
                 <li className='hover:underline hover:scale-110 transition-all'>
                     <Link to="growView" smooth={true} duration={500}>Why Qubit?</Link>

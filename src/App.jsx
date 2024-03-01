@@ -19,7 +19,7 @@ export const App = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <div className='w-[100%] mx-auto'>
+    <div className='w-[100%] mx-auto overflow-hidden'>
       {menu && (
         <div className='flex lg:hidden fixed rounded-lg z-[50] top-[60px] right-0 flex-col shadow-md bg-white'>
           <BurgerMenuView setMenu={setMenu}/>
